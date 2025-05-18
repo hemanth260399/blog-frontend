@@ -53,7 +53,6 @@ export let ChangePassword = () => {
                     </h2>
 
                     <form onSubmit={emailsubmit} className="space-y-4">
-                        {/* Email Input */}
                         <div>
                             <label htmlFor="password" className="block text-sm font-medium text-gray-700">New Password</label>
                             <input

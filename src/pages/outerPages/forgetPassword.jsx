@@ -41,7 +41,6 @@ export let ForgetPassword = () => {
                     </h2>
 
                     <form onSubmit={emailsubmit} className="space-y-4">
-                        {/* Email Input */}
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
                             <input

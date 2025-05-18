@@ -56,7 +56,6 @@ export let RegisterPart = () => {
                     <p className="text-center text-gray-600">Please fill in the details to register</p>
 
                     <form onSubmit={registersubmit} className="space-y-6">
-                        {/* Name Input */}
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium text-gray-600">Full Name</label>
                             <input
@@ -69,8 +68,6 @@ export let RegisterPart = () => {
                                 className="mt-2 w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
                             />
                         </div>
-
-                        {/* Email Input */}
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
                             <input
@@ -83,8 +80,6 @@ export let RegisterPart = () => {
                                 className="mt-2 w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                             />
                         </div>
-
-                        {/* Password Input */}
                         <div>
                             <label htmlFor="password" className="block text-sm font-medium text-gray-700">Password</label>
                             <input
@@ -97,8 +92,6 @@ export let RegisterPart = () => {
                                 className="mt-datachange w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                             />
                         </div>
-
-                        {/* Confirm Password Input */}
                         <div>
                             <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700">Confirm Password</label>
                             <input
@@ -111,8 +104,6 @@ export let RegisterPart = () => {
                                 className="mt-2 w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                             />
                         </div>
-
-                        {/* Submit Button */}
                         <div>
                             <button
                                 type="submit"

@@ -41,7 +41,6 @@ export let LoginPart = () => {
                     <p className="text-center text-gray-600">Please log in to your account</p>
 
                     <form onSubmit={(e) => { loginsubmit(e, logindetail) }} className="space-y-4">
-                        {/* Email Input */}
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
                             <input
@@ -54,8 +53,6 @@ export let LoginPart = () => {
                                 className="mt-2 w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                             />
                         </div>
-
-                        {/* Password Input */}
                         <div>
                             <label htmlFor="password" className="block text-sm font-medium text-gray-700">Password</label>
                             <input
@@ -68,8 +65,6 @@ export let LoginPart = () => {
                                 className="mt-2 w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
                             />
                         </div>
-
-                        {/* Submit Button */}
                         <div>
                             <button
                                 type="submit"
